@@ -1,1 +1,31 @@
-﻿
+﻿<Window x:Class="AppUniversidade.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Universidade" Height="200" Width="300" Background="White">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="81*"/>
+            <ColumnDefinition Width="19*"/>
+        </Grid.ColumnDefinitions>
+        <Menu Grid.ColumnSpan="2">
+            <Menu.Background>
+                <ImageBrush ImageSource="/wall.jpg"/>
+            </Menu.Background>
+            <MenuItem Header="Cadastros" Background="White">
+                <MenuItem Header="Departamentos..." Click="Departamento_Click" />
+                <MenuItem Header="Cursos..." Click="Curso_Click" />
+            </MenuItem>
+            <MenuItem Header="Operações" Background="White">
+                <MenuItem Header="Cadastro Departamento..." Click="CadDep_Click" />
+                <MenuItem Header="Cadastro Curso..." Click="CadCur_Click" />
+            </MenuItem>
+        </Menu>
+        <Button Visibility="Hidden" Click="Departamento_Click" Content="Cadastrar Departamento" HorizontalAlignment="Left" Margin="23,19,0,0" VerticalAlignment="Top"/>
+        <Button Visibility="Hidden" Click="Curso_Click" Content="Cadastrar Curso" HorizontalAlignment="Left" Margin="23,44,0,0" VerticalAlignment="Top"/>
+        <Button Visibility="Hidden" Click="CadDep_Click" Content="Cadastrar Departamento na Universidade" HorizontalAlignment="Left" Margin="23,69,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <Button Visibility="Hidden" Click="CadCur_Click" Content="Cadastrar Curso no Departamento" HorizontalAlignment="Left" Margin="23,94,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

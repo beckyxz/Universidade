@@ -1,0 +1,7 @@
+C:\Users\20211011110038\Source\Repos\Universidade\AppUniversidade\obj\Debug\net5.0-windows\AppUniversidade.csproj.AssemblyReference.cache
+C:\Users\20211011110038\Source\Repos\Universidade\AppUniversidade\obj\Debug\net5.0-windows\Curso.g.cs
+C:\Users\20211011110038\Source\Repos\Universidade\AppUniversidade\obj\Debug\net5.0-windows\Departamento.g.cs
+C:\Users\20211011110038\Source\Repos\Universidade\AppUniversidade\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\20211011110038\Source\Repos\Universidade\AppUniversidade\obj\Debug\net5.0-windows\AppUniversidade_MarkupCompile.cache
+C:\Users\20211011110038\Source\Repos\Universidade\AppUniversidade\obj\Debug\net5.0-windows\AppUniversidade_MarkupCompile.lref
+C:\Users\20211011110038\Source\Repos\Universidade\AppUniversidade\obj\Debug\net5.0-windows\Departamento.baml

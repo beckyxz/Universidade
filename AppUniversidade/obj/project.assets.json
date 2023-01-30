@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\20211011110038\\source\\repos\\AppUniversidade\\AppUniversidade.csproj",
+      "projectUniqueName": "C:\\Users\\20211011110038\\Source\\Repos\\Universidade\\AppUniversidade\\AppUniversidade.csproj",
       "projectName": "AppUniversidade",
-      "projectPath": "C:\\Users\\20211011110038\\source\\repos\\AppUniversidade\\AppUniversidade.csproj",
+      "projectPath": "C:\\Users\\20211011110038\\Source\\Repos\\Universidade\\AppUniversidade\\AppUniversidade.csproj",
       "packagesPath": "C:\\Users\\20211011110038\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\20211011110038\\source\\repos\\AppUniversidade\\obj\\",
+      "outputPath": "C:\\Users\\20211011110038\\Source\\Repos\\Universidade\\AppUniversidade\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\20211011110038\\AppData\\Roaming\\NuGet\\NuGet.Config",

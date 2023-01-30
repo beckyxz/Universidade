@@ -1,5 +1,5 @@
 ﻿AppUniversidade
-1.0.0.0
+
 
 winexe
 C#
@@ -12,7 +12,7 @@ TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\20211011110038\Source\Repos\Universidade\AppUniversidade\App.xaml
 5-1592308921
 
-9-372525074
+72084529046
 193-1891726104
 CadCurso.xaml;CadDepartamento.xaml;CursoWindow.xaml;DepartamentoWindow.xaml;MainWindow.xaml;
 

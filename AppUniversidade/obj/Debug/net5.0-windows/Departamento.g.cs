@@ -84,7 +84,7 @@ namespace AppUniversidade {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/AppUniversidade;V1.0.0.0;component/departamento.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/AppUniversidade;component/departamento.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Departamento.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
