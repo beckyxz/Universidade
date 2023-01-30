@@ -1,0 +1,33 @@
+﻿<Window x:Class="AppUniversidade.DepartamentoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EscolaApp"
+        mc:Ignorable="d"
+        Title="Cadastro de Departamento na Universidade " Height="180" Width="300">
+    <Grid Margin="0,0,-134,0">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF232323"/>
+                <GradientStop Color="#FFA8B0D3" Offset="1"/>
+                <GradientStop Color="#FF414553" Offset="0.077"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="9*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Id" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontFamily="Lucida Calligraphy"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.473,1.027" Foreground="White" FontFamily="Lucida Calligraphy" Text="Departamento"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontFamily="Lucida Calligraphy"><Run Language="pt-br" Text="Setor"/></TextBlock>
+        <TextBox Name="txtId" HorizontalAlignment="Left" Margin="10,30,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="48"/>
+        <TextBox Name="txtCodigo" HorizontalAlignment="Left" Margin="10,80,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="96"/>
+        <TextBox Name="txtCurso" HorizontalAlignment="Left" Margin="10,127,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="111"/>
+        <Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="0,8,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.821,-1.672" FontFamily="Lucida Calligraphy" Background="White" Height="20" Width="59" Grid.Column="1"/>
+        <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="72,8,0,0" VerticalAlignment="Top" Grid.Column="1" RenderTransformOrigin="-0.045,0.655" FontFamily="Lucida Calligraphy" Background="White" Height="20" Width="46"/>
+        <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="132,8,0,0" VerticalAlignment="Top" Grid.Column="1" RenderTransformOrigin="0.066,0.568" FontFamily="Lucida Calligraphy" Background="White" Height="20" Width="75"/>
+        <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="221,8,0,0" VerticalAlignment="Top" Grid.Column="1" RenderTransformOrigin="0.199,0.745" FontFamily="Lucida Calligraphy" Background="White" Height="20" Width="64"/>
+        <ListBox Name="listCurso" Margin="0,44,15,19" SelectionChanged="listCursos_SelectionChanged" Grid.Column="1" />
+    </Grid>
+</Window>
